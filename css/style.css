@@ -1,0 +1,133 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+/* ==== Typography ==== */
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h3 {
+    margin: 25px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+/* ==== header ==== */
+
+.header-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff9f1c;
+    color: #e8fdc6;
+    margin: 0 auto;
+    
+}
+
+.header-img {
+    height: 100px;
+    width: 150px;
+    border-radius: 20%;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+/* ==== layout ==== */
+
+.controls-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.emotion-radios {
+    display: flex;
+    flex-direction: column;
+    border: 1px #bcbcbc solid;
+    border-radius: 5px;
+}
+
+.radio {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #bcbcbc; 
+    padding: 8px 16px;
+}
+
+.highlight {
+    background-color: #f5bcef;
+    color: #7f1b9d;
+    accent-color: #7f1b9d;
+    font-weight: bold;
+}
+
+
+.radio:last-child {
+    border-bottom: none;
+}
+
+.gifs-checkbox { 
+    margin: 15px;
+}
+
+.get-images-btn {
+    background-color: #ff9f1c;
+    color: #e8fdc6;
+    border: none;
+    border-radius: 5px; 
+    font-size: 24px;
+    padding: 12px 20px;
+}
+
+.meme-modal {
+    display: none;
+    position: fixed;
+    margin: auto;
+    top: 80px;
+    bottom: auto;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ff9f1c;
+    border-radius: 5px;
+    width: 420px;
+    height: 420px;
+    background-color: #e8fdc6;
+}
+
+.meme-modal-close-btn {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    background-color: transparent;
+    border: 2px solid #555;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.meme-modal-close-btn:hover {
+    background-color: #7f1b9d;
+    color: #bcbcbc;
+    border: 2px solid #bcbcbc;
+}
+
+.fruit-img{
+    max-width: 340px;
+    max-height: 420px;
+    border-radius: 5px;
+}
